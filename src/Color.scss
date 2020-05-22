@@ -1,0 +1,18 @@
+
+$primary-color: #5E96AE;
+$banner-background-color:  #5E96AE;
+
+$average-color: #F6A7C1;
+$minimum-color: #87DCC0;
+$maximum-color: #E6B655;
+$highest-color: #E17E76;
+$lowest-color: #8AC0DE;
+
+:export {
+    primarycolor: $primary-color;
+    averagecolor: $average-color;
+    minimumcolor: $minimum-color;
+    maximumcolor: $maximum-color;
+    highestcolor: $highest-color;
+    lowestcolor: $lowest-color;
+  }
