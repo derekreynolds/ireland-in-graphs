@@ -3,3 +3,25 @@
 h2 {
     color: $primary-color;
 }
+
+.er-stations {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5rem; 
+    }
+}
+
+.er-temperature-selection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    
+    @media only screen and (max-width: 600px) {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0.5rem; 
+    }
+}

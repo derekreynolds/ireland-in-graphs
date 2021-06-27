@@ -1,22 +1,30 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 import './Chip.scss';
 
 
 const Chip = (props) => {
 
-    const [toggle, setToggle] = useState(false);    
+    const [toggle, setToggle] = useState(props.selected);    
     
-    function handleClick(e) {
+    const handleClick = (e) => {
         e.preventDefault();
-        setToggle(!toggle);
-        if (props.onClick) {
-            props.onClick();
-        }
         
-    }   
-    
-    function getClasses() {
+        if (props.onClick) {
+            if(props.onClick()) {
+                setToggle(!toggle);
+            }
+        } else {
+            setToggle(!toggle);
+        }       
+    }
+
+    useEffect(() => {
+        setToggle(props.selected);
+    }, [props.selected])
+   
+    const getClasses = () => {
+        
         let clazz = 'er-chip';
 
         if(toggle)

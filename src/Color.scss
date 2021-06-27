@@ -8,6 +8,15 @@ $maximum-color: #E6B655;
 $highest-color: #E17E76;
 $lowest-color: #8AC0DE;
 
+$belmullet-color: #998AD3;
+$valencia-color: #87DCC0;
+$dublin-color: #88BBE4;
+$cork-color: #E494D3;
+$casement-color: #CDF1AF;
+$malinhead-color: #77DD77;
+$mullingar-color: #FE6B64;
+$shannon-color: #779ECB;
+
 :export {
     primarycolor: $primary-color;
     averagecolor: $average-color;
@@ -15,4 +24,12 @@ $lowest-color: #8AC0DE;
     maximumcolor: $maximum-color;
     highestcolor: $highest-color;
     lowestcolor: $lowest-color;
+    belmulletcolor: $belmullet-color;
+    valenciacolor: $valencia-color;
+    dublincolor: $dublin-color;
+    corkcolor: $cork-color;
+    casementcolor: $casement-color;
+    malinheadcolor: $malinhead-color;
+    mullingarcolor: $mullingar-color;
+    shannoncolor: $shannon-color;
   }

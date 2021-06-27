@@ -10,14 +10,15 @@
 @import './Color.scss';
 
 .App-header {
-  background: $banner-background-color;
+  background: white;
   min-height: 10vh;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto auto auto;
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  color: white;
+  font-weight: 500;
+  color: $banner-background-color;
 }
 
 

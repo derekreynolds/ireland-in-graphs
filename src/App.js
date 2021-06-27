@@ -7,7 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        Ireland in graphs
+        <div></div>
+        <div>Ireland in graphs</div>
+        <div></div>
       </header>
       <Temperature/>      
     </div>
