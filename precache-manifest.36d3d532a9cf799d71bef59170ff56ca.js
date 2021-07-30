@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e1f622d83adc7c10a6a580d77864c6a",
+    "revision": "bc47fe3873e3ac46ecee774dba70cdf6",
     "url": "/ireland-in-graphs/index.html"
   },
   {
-    "revision": "3fff45b148152f405c4f",
-    "url": "/ireland-in-graphs/static/css/main.3266f6e7.chunk.css"
+    "revision": "e5e81b586e59ef5bd821",
+    "url": "/ireland-in-graphs/static/css/main.881e0cc0.chunk.css"
   },
   {
     "revision": "3c2190d95be80fb5c9ac",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ireland-in-graphs/static/js/2.2a60a082.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3fff45b148152f405c4f",
-    "url": "/ireland-in-graphs/static/js/main.c1455745.chunk.js"
+    "revision": "e5e81b586e59ef5bd821",
+    "url": "/ireland-in-graphs/static/js/main.7440efe3.chunk.js"
   },
   {
     "revision": "148587dd121061349a67",
